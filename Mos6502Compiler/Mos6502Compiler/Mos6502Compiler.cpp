@@ -1,4 +1,4 @@
-//Author: Rémi Pelletier
+//Author: RÃ©mi Pelletier
 //File:   Mos6502Compiler.cpp
 //Desc.:  Source file containing the compilation logic.
 
@@ -33,7 +33,7 @@ MissingArgumentException::MissingArgumentException()
 //instruction set, plus an entry to represent an invalid addressing mode
 //when parsing. The entries are given values that are powers of 2
 //in order to facilitate and speed up the process of evaluating wether
-//the given addressing mode has an 8 bit argument, a 16 bit argument,
+//the given addressing mode has an 8-bit argument, a 16-bit argument,
 //or no argument at all.
 enum AddressingMode
 {
@@ -127,7 +127,7 @@ static const std::map<std::string, Mos6502Instruction> MOS6502_INSTRUCTIONS =
 
 
 //Mask used to quickly determine if the given addressing mode
-//has an 8 bit argument.
+//has an 8-bit argument.
 static const uint16_t ADDR_MODE_ARG_8BIT = AddressingMode::IMMEDIATE  |
                                            AddressingMode::RELATIVE   |
                                            AddressingMode::ZEROPAGE   |
@@ -137,7 +137,7 @@ static const uint16_t ADDR_MODE_ARG_8BIT = AddressingMode::IMMEDIATE  |
                                            AddressingMode::INDIRECT_INDEXED_Y;
       
 //Mask used to quickly determine if the given addressing mode
-//has a 16 bit argument.
+//has a 16-bit argument.
 static const uint16_t ADDR_MODE_ARG_16BIT = AddressingMode::INDIRECT   |
                                             AddressingMode::ABSOLUTE   |
                                             AddressingMode::ABSOLUTE_X | 
