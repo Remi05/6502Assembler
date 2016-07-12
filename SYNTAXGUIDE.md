@@ -133,7 +133,7 @@ Compare with X
 Compare with Y   
 
 **DEC**  
-Decrement accumulator   
+Decrement  
 
 **DEX**  
 Decrement X   
@@ -145,7 +145,7 @@ Decrement Y
 Bitwise XOR with accumulator   
 
 **INC**  
-Increment accumulator   
+Increment   
 
 **INX**  
 Increment X   
