@@ -256,7 +256,8 @@ AddressingMode determineAddressingMode(const std::string& line, const Mos6502Ins
     }
 
     if (std::regex_search(line, ZP_REL_REGEX)) {
-        return instruction.opcodes.find(AddressingMode::ZEROPAGE) != instruction.opcodes.end() ? AddressingMode::ZEROPAGE : AddressingMode::RELATIVE;
+        return instruction.opcodes.find(AddressingMode::ZEROPAGE) != instruction.opcodes.end() ?
+               AddressingMode::ZEROPAGE : AddressingMode::RELATIVE;
     }
 
     if (instruction.opcodes.find(AddressingMode::IMPLIED) != instruction.opcodes.end()) {
@@ -266,7 +267,7 @@ AddressingMode determineAddressingMode(const std::string& line, const Mos6502Ins
         return AddressingMode::ACCUMULATOR;
     }
 
-	return AddressingMode::INVALID_ADDRESSING_MODE;
+    return AddressingMode::INVALID_ADDRESSING_MODE;
 }
 
 
