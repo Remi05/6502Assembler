@@ -11,8 +11,12 @@ Labels and comments are not currently supported but this might change in the fut
 - Numerical arguments must be given in hexadecimal (without the "0x" prefix).
 - Numerical arguments must be preceded by the character '$'.
 - 1-byte arguments should be written with 2 digits and 2-bytes arguments should be written with 4 digits.
-- Commas and parantheses can be preceded and followed by whitespaces.   
+- Commas and parantheses can be preceded and followed by whitespaces.
 
+  
+**The instructions used in the following examples are simply possible instructions. The addressing modes can be used with different instructions and the instructions can be used with different addressing modes.**  
+   
+  
 **Absolute**   
 LDX $0000   
 (Instruction followed by 2 bytes with the character $ as prefix)  
