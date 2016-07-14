@@ -31,7 +31,7 @@ ADC $0000,Y
 
 **Accumulator**   
 ASL   
-(Instruction followed by nothing or whitespace)
+(Instruction followed by nothing or whitespace)   
 (The syntax is the same as Implied but, for any instruction, only one of the two is a valid addressing mode)
 
 **Immediate**   
