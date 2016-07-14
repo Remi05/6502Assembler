@@ -31,7 +31,8 @@ ADC $0000,Y
 
 **Accumulator**   
 ASL   
-(Instruction followed by nothing or whitespace)   
+(Instruction followed by nothing or whitespace)
+(The syntax is the same as Implied but, for any instruction, only one of the two is a valid addressing mode)
 
 **Immediate**   
 LDA #$00   
@@ -48,6 +49,11 @@ JMP ($0000)
 **Relative**   
 BPL $00      
 (Instruction followed by 1 byte with the character $ as prefix)   
+(The synthax is the same as Zero page but it is only used along with branching instructions)
+
+**Zero page**   
+LDY $00
+(Instruction followed by 1 byte with the character $ as prefix)    
 
 **Zero page indexed with X**   
 LDA $00,X   
