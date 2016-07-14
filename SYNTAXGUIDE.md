@@ -52,7 +52,7 @@ BPL $00
 (The synthax is the same as Zero page but it is only used along with branching instructions)
 
 **Zero page**   
-LDY $00
+LDY $00   
 (Instruction followed by 1 byte with the character $ as prefix)    
 
 **Zero page indexed with X**   
