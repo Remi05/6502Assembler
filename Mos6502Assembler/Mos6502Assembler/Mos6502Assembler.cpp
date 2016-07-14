@@ -290,7 +290,7 @@ T parseArgument(const std::string& line)
 }
 
 
-//Compiles the MOS Technology instructions from the given input stream
+//Compiles the MOS Technology 6502 instructions from the given input stream
 //and writes the obtained machine code to the output stream.
 //
 //Parameters: input  -> The input stream from which to read the instructions.
