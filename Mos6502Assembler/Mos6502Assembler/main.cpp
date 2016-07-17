@@ -1,4 +1,4 @@
-//Author: Rémi Pelletier
+//Author: RÃ©mi Pelletier
 //File:   main.cpp
 //Desc.:  Entry point of the program.
 
@@ -61,7 +61,7 @@ int main(int argc, char* argv[])
     }
     catch (std::exception e) {
         std::cerr << "Compilation failed. Error message : " << e.what()
-            << std::endl;
+                  << std::endl;
         output.close();
         return EXIT_FAILURE;
     }
