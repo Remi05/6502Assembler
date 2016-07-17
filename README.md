@@ -2,7 +2,7 @@
 **Author :** Rémi Pelletier  
 **Description :** A very basic assembler for the MOS Technology 6502 instruction set.  
   
-**Considerations**   
+## Considerations   
 If the expected syntax is unclear, please refer to the [syntax guide](SYNTAXGUIDE.md).   
 
   
