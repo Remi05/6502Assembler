@@ -28,7 +28,8 @@ int main(int argc, char* argv[])
 
     //Exits if the file can't be opened.
     if (input.fail()) {
-        std::cerr << "An error occured when opening " << inputFileName << "." << std::endl;
+        std::cerr << "An error occured when opening " << inputFileName 
+                  << "." << std::endl;
         input.close();
         return EXIT_FAILURE;
     }
@@ -39,7 +40,8 @@ int main(int argc, char* argv[])
         inputBuffer << input.rdbuf();
     }
     catch (std::exception e) {
-        std::cerr << "File could not be read correctly. Error message : " << e.what() << std::endl;
+        std::cerr << "File could not be read correctly. Error message : " 
+                  << e.what() << std::endl;
         input.close();
         return EXIT_FAILURE;
     }
