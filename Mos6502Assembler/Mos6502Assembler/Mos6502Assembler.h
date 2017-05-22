@@ -1,4 +1,4 @@
-//Author: Rémi Pelletier
+//Author: RÃ©mi Pelletier
 //File:   Mos6502Assembler.h
 //Desc.:  Header file containing the declaration of the neccesarry
 //        elements to use the compiler.
@@ -8,8 +8,8 @@
 #pragma once
 #include <iostream>
 
-namespace Mos6502Assembler {
-
+namespace Mos6502Assembler 
+{
     class InvalidInstructionException : std::invalid_argument
     {
     public:
