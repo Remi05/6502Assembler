@@ -1,16 +1,16 @@
-#Syntax guide
+# Syntax guide
 
 Labels and comments are not currently supported but this might change in the future. 
 
 
-##Addressing modes 
+## Addressing modes 
 
 - Each instruction must be on a new line.   
-- The instruction must be the first element on the line (can be preceded by white-space characters).   
+- The instruction must be the first element on the line (though it can be preceded by white-space characters).   
 - The instruction should be followed by at least one white-space character. 
 - Numerical arguments must be given in hexadecimal (without the "0x" prefix).
 - Numerical arguments must be preceded by the character '$'.
-- 1-byte arguments should be written with 2 digits and 2-bytes arguments should be written with 4 digits.
+- 1-byte arguments should be written with 2 digits and 2-byte arguments should be written with 4 digits.
 - Commas and parantheses can be preceded and followed by whitespaces.
 
   
@@ -74,7 +74,7 @@ LSR ($00),Y
 
 
 
-##Instructions   
+## Instructions   
 
 Any of the following is considered a valid instruction :      
 
@@ -244,5 +244,4 @@ Transfer X to accumulator
 Transfer X to stack pointer   
 
 **TYA**  
-
 Transfer Y to accumulator   
