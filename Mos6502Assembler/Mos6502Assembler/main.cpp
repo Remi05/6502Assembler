@@ -12,7 +12,6 @@
 #include <string>
 #include "Mos6502Assembler.h"
 
-
 static const std::string DEFAULT_OUTPUT_FILE_NAME("output.bin");
 
 int main(int argc, char* argv[])
