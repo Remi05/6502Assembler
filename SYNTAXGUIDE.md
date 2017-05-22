@@ -74,7 +74,7 @@ LSR ($00),Y
 
 
 
-##Instructions   
+## Instructions   
 
 Any of the following is considered a valid instruction :      
 
@@ -244,5 +244,4 @@ Transfer X to accumulator
 Transfer X to stack pointer   
 
 **TYA**  
-
 Transfer Y to accumulator   
