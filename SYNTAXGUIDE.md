@@ -10,7 +10,7 @@ Labels and comments are not currently supported but this might change in the fut
 - The instruction should be followed by at least one white-space character. 
 - Numerical arguments must be given in hexadecimal (without the "0x" prefix).
 - Numerical arguments must be preceded by the character '$'.
-- 1-byte arguments should be written with 2 digits and 2-bytes arguments should be written with 4 digits.
+- 1-byte arguments should be written with 2 digits and 2-byte arguments should be written with 4 digits.
 - Commas and parantheses can be preceded and followed by whitespaces.
 
   
