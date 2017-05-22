@@ -1,9 +1,9 @@
-#Syntax guide
+# Syntax guide
 
 Labels and comments are not currently supported but this might change in the future. 
 
 
-##Addressing modes 
+## Addressing modes 
 
 - Each instruction must be on a new line.   
 - The instruction must be the first element on the line (can be preceded by white-space characters).   
