@@ -6,7 +6,7 @@ Labels and comments are not currently supported but this might change in the fut
 ## Addressing modes 
 
 - Each instruction must be on a new line.   
-- The instruction must be the first element on the line (can be preceded by white-space characters).   
+- The instruction must be the first element on the line (though it can be preceded by white-space characters).   
 - The instruction should be followed by at least one white-space character. 
 - Numerical arguments must be given in hexadecimal (without the "0x" prefix).
 - Numerical arguments must be preceded by the character '$'.
